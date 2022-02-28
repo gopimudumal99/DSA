@@ -20,6 +20,7 @@ const graph = {
 console.log("depth-First-search: ",hasPath(graph, "f", "k"))
 
 // ++++ || breadthFirst || ++++
+
 const hasPath1 = (graph, src, dest) => { 
     let queue = [src]
     while (queue.length > 0) { 
