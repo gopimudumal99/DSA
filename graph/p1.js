@@ -23,3 +23,23 @@ const graph = {
 depthFirstPrint(graph, 'a');
 
 //expected output: abdfce
+
+
+// +++++for || Recursive || Methode++++++ 
+console.log("Recurcive methode")
+const depthFirstPrintRecurrive = (graph1, source) => {
+  //initialize the stack with starting node
+  console.log(source);
+    for (let neighbour of graph1[source]) {
+      depthFirstPrintRecurrive(graph1,neighbour)
+  }
+};
+const graph1 = {
+  a: ["b", "c"],
+  b: ["d"],
+  c: ["e"],
+  d: ["f"],
+  e: [],
+  f: [],
+};
+depthFirstPrintRecurrive(graph1, "a"); // ountput abdfce
