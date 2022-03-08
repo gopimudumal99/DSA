@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+    <h1>Click this btn in multiple times and see the actions </h1>
+    <h3 style="text-transform: uppercase;color: crimson;font-weight: 800;">In JavaScript, a debounce function makes sure that your code is only triggered once per user input</h3>
+    <div style="display: flex; justify-content: space-around; width: 600px;">
+        <div>
+            <button id="db-btn"
+                style="margin-top: 50px;background-color:green; color:white; outline: none; text-transform: uppercase; padding: 10px; font-weight: 700;">debounce</button>
+            <p id="db-p"></p>
+        </div>
+        <div>
+            <button id="ndb-btn"
+                style="margin-top: 50px;background-color:red; color:white; outline: none; text-transform: uppercase; padding: 10px; font-weight: 700;">non-debounce</button>
+            <p id="ndb-p"></p>
+        </div>
+        <div>
+            <button id="th-btn"
+                style="margin-top: 50px;background-color:red; color:white; outline: none; text-transform: uppercase; padding: 10px; font-weight: 700;">Throtling</button>
+            <p id="th-p"></p>
+        </div>
+    </div>
+</body>
+
+</html>
+<script src="./debounce.js"></script>
+<script src="./throtling.js"></script>
