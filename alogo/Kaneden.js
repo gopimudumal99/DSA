@@ -1,4 +1,4 @@
-//LONGEST SUBARRAY SUM PROBLEM
+//LONGEST SUBARRAY max SUM PROBLEM
 
 let arr = [-2, -3, 4, -1, -2, 1, 5, -3];
 let n = arr.length;
