@@ -20,6 +20,8 @@ function strKeyValu(S) {
 }
 console.log(strKeyValu(S)); 
 
+
+//Optimal solution  S = aabbaa O/p:a2b2a2
 function optiString(S) { 
     str = ""
     for (let i = 0; i < S.length; i++) {
