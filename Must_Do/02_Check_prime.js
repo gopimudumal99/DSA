@@ -1,5 +1,5 @@
 // Given an integer N. Check whether N is prime or not.
-
+//T.c = sqrt(N) and s.c = O(1)
 function isPrime(n) { 
     let fact = 0
     for (var i = 1; i <= Math.sqrt(n); i++){
