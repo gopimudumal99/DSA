@@ -9,4 +9,6 @@ console.log(a[b])  // O/p : 456
 function create(a = b, b) {
   console.log(a);
 }
-create(undefined, 1);  // reference erro 
+create(undefined, 1);  // reference erro
+
+console.log(() => a); // function anymous
