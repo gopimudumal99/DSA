@@ -44,4 +44,6 @@ function infixToPostfix(str) {
     console.log(res)
 }
 infixToPostfix("a+b*(c^d-e)^(f+g*h)-i");
+infixToPostfix("a+b*c^d-e");
+
 //abcd^e-fgh*+^*+i-
