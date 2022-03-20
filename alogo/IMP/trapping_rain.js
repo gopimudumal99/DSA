@@ -1,6 +1,8 @@
 //  TRAPPING RAIN WATER
 
 let arr = [1, 0, 2, 0, 1, 0, 3, 1, 0, 2];
+// let arr =[1, 8, 6, 2, 5, 4, 8, 3, 7];
+             // ^  ^  ^  ^  ^  ^  ^  ^
 //step 1 : not consider end element beacuse before el we don't store water so
 // step 1 : check left max val and check right max val
 // step 3 : comapre lef and right val and take it out of minumum of them i,e.., min(left,right)-peresent elem
@@ -18,7 +20,7 @@ function tapWater(arr) {
             right = Math.max(right,arr[j])
         }
 
-        water+=Math.min(left,right)-arr[i]
+        water += Math.min(left, right) - arr[i]
     }
     console.log(water)
 }

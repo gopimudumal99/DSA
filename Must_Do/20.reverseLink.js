@@ -10,3 +10,5 @@ function reverseList(head) {
     }
     return next;
 }
+
+// t.c = O(n) s.c = (1)
