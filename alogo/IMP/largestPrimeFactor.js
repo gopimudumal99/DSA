@@ -19,7 +19,6 @@ function largestPrimeFactor(n){
 
 
     function smallestPrimeFactor(n){
-        var i=2;
         if(n%2==0){
             return 2
         }

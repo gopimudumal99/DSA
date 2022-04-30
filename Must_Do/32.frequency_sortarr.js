@@ -5,6 +5,7 @@ let n = 10;
 let target = 7
 bsLower(arr, n, target); 
 bsupper(arr, n, target);
+
 function bsLower(arr, n, k) { 
     let ind = -1;
     let low = 0; let high = n - 1;

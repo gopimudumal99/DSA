@@ -20,4 +20,4 @@ const throttle = (fn,wait) => {
 }
 
 let btn = document.getElementById("th-btn")
-btn.addEventListener("click",throttle(makeApiCallonThrottle,2000))
+btn.addEventListener("click",throttle(makeApiCallonThrottle,1000))

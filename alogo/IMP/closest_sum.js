@@ -30,7 +30,7 @@ function sortCloseToZero(arr) {
     arr = arr.sort((a, b) => a - b)   //nlogn
     let min_sum = Infinity
     let min_l 
-    let min_r
+    let min_r                            
     let l = 0
     let r = arr.length-1
     let sum;

@@ -9,9 +9,9 @@ let c = 0
 let nc = 0
 const makeApiCall = () => {
     c++
-   let div = document.createElement("h3")
-   div.innerText = `api is called ${c}`
-   p.appendChild(div)
+   let text = document.createElement("h3")
+   text.innerText = `api is called ${c}`
+   p.appendChild(text)
 } 
 
 const debounce = (fun, delay) => { 
